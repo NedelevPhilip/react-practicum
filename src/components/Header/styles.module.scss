@@ -1,0 +1,14 @@
+@import '../../variables';
+
+.Header{
+  background-color: $light;
+  color: $dark;
+  height: $header_height;
+  display: flex;
+  align-items: center;
+}
+
+.Logo{
+  font-weight: 600;
+  font-size: 25px;
+}

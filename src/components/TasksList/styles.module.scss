@@ -1,0 +1,48 @@
+@import '../../variables';
+
+.TasksWrapper{
+  height: calc(100% - $header_height);
+  padding-top: 50px;
+}
+
+.AddButton{
+  background-color: $active !important;
+  color: $super_light !important;
+  position: absolute!important;
+  bottom: 50px;
+  right: 50px;
+}
+
+.Modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.ModalBox{
+  width: 500px;
+  height: 400px;
+  background-color: $super_light;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  >div{
+    width: 450px;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.ModalField{
+  width: 100%!important;
+  margin-bottom: 15px!important;
+}
+
+.ModalButton{
+  background-color: $active!important;
+  width: 200px!important;
+}
