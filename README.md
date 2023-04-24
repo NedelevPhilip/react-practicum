@@ -30,5 +30,5 @@ Run `npm start` to start the project on port 3000
 5. Create a pull request to the master branch
 6. Send me the pull request link and wait for the review
 7. If the review is successful, merge the pull request
-8. If you have any questions, write them in Slack on in the pull request
+8. If you have any questions, write them in Telegram bot or in the pull request comments
 
